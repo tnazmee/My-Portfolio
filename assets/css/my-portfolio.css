@@ -1,0 +1,141 @@
+/*------------*/
+/*-- Body --*/
+body {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
+    animation: change 10s ease-in-out infinite;
+    background-size: 400% 400%;
+}
+
+@keyframes change {
+    0% {
+        background-position: 0 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0 50%;
+    }
+}
+
+/*-- Body --*/
+/*------------*/
+
+/*------------*/
+/*-- Navbar --*/
+.pos-f-t {
+    border-bottom: 8px solid #fff;
+}
+
+#Page-Title {
+    font-family: 'Audiowide', cursive !important;
+}
+
+.navbar {
+    background-color: black !important;
+    color: #cc2b5e !important;
+}
+
+.p-4 {
+    background-color: unset !important;
+    border-bottom: 8px solid #fff;
+}
+
+#NL-Padding {
+    padding: 10px;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+button:focus {
+    outline: 0;
+}
+
+#link1,
+#link2,
+#link3 {
+    color: black !important;
+    font-size: 20px !important;
+    padding-left: 5% !important;
+    padding-right: 5% !important;
+    font-family: 'Audiowide', cursive !important;
+}
+
+#link2 {
+    border-left: 1px solid !important;
+    border-right: 1px solid !important;
+}
+
+.navbar-toggler {
+    border-color: #cc2b5e !important;
+}
+
+.navbar-toggler:hover {
+    -moz-box-shadow: 0 0 20px rgb(241, 11, 118) !important;
+    -webkit-box-shadow: 0 0 20px rgb(204, 58, 126) !important;
+    box-shadow: 0 0 20px rgb(204, 58, 126) !important;
+}
+
+.fa-align-justify {
+    color: #cc2b5e !important;
+}
+
+/*-- Navbar --*/
+/*------------*/
+
+/*----------------*/
+/*-- About Page --*/
+.About-Container {
+    margin-top: 5%;
+}
+
+.About-Card {
+    background: unset;
+    color: #fff;
+    border: 3px solid #fff;
+}
+
+.About-Div {
+    margin-left: 5%;
+}
+
+#About-Title {
+    font-family: "Lato", Arial, sans-serif;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+    border-bottom: 3px solid #fff;
+}
+
+.About-Info {
+    font-size: 19px;
+    font-family: "Lato", Arial, sans-serif;
+}
+
+/*-- About Page --*/
+/*----------------*/
+
+/*------------*/
+/*-- Footer --*/
+footer {
+    padding: 30px 0;
+    clear: both;
+    font-size: 12px;
+    color: #cc2b5e;
+    text-align: center;
+    background: black;
+    border-top: 8px solid #fff;
+    height: 50px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+
+}
+
+/*-- Footer --*/
+/*------------*/
