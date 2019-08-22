@@ -20,12 +20,16 @@
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
     </script>
 
+    <!-- Firebase Link -->
+    <script src="https://www.gstatic.com/firebasejs/6.3.1/firebase.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.0.4/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.0.4/firebase-database.js"></script>
+
     <!-- Font Awesome Link -->
     <script src="https://kit.fontawesome.com/dad5aebbf2.js"></script>
 
     <!-- Google Fonts Link -->
     <link href="https://fonts.googleapis.com/css?family=Audiowide&display=swap" rel="stylesheet">
-
 
     <!-- My CSS Link -->
     <link rel="stylesheet" href="assets\css\my-portfolio.css">
@@ -47,7 +51,7 @@
             </div>
         </div>
         <nav class="navbar">
-            <h1 id="Page-Title">Welcome To Tahsin's Portfolio</h1>
+            <h1 id="Page-Title">Tahsin Nazmee</h1>
 
             <button class="navbar-toggler" type="button" data-toggle="collapse"
                 data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent"
@@ -57,10 +61,41 @@
         </nav>
     </div>
 
-    <!---- About Me Info ---->
+    <!---- Contact Info ---->
+    <div class="container Contact-Container">
+        <div class="row">
+            <div class="col-12">
+                <div class="card Contact-Card">
+                    <div class="card-body">
+                        <div class="row Contact-Div">
+                            <div class="col-11">
+                                <h1 id="Contact-Title">Contact</h1>
+
+                                <form id="Contact-Form">
+                                    <label for="name" class="Contact-Label">Name</label><br>
+                                    <input type="text" id="contact-name" name="name" placeholder="John Smith"
+                                        required="required" class="Contact-Input"><br>
+
+                                    <label for="email" class="Contact-Label">Email</label><br>
+                                    <input type="email" id="contact-email" name="email" placeholder="example@gmail.com"
+                                        required="required" class="Contact-Input"><br>
+
+                                    <label for="message" class="Contact-Label">Message</label><br>
+                                    <textarea id="contact-message" name="message" required="required"
+                                        class="Contact-Textarea"></textarea><br>
+
+                                    <input type="submit" class="Contact-Btn hvr-float-shadow" id="submit-btn">
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <!---- Footer ---->
-    <footer>
+    <footer id="Portfolio-Footer">
         <div class="container">
             Copyright &copy;
         </div>
