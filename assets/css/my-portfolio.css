@@ -62,14 +62,9 @@ button:focus {
 #link3 {
     color: black !important;
     font-size: 20px !important;
-    padding-left: 5% !important;
-    padding-right: 5% !important;
+    margin-left: 5% !important;
+    margin-right: 5% !important;
     font-family: 'Audiowide', cursive !important;
-}
-
-#link2 {
-    border-left: 1px solid !important;
-    border-right: 1px solid !important;
 }
 
 .navbar-toggler {
@@ -111,6 +106,7 @@ button:focus {
     text-transform: uppercase;
     padding-bottom: 10px;
     border-bottom: 3px solid #fff;
+    color: #ffffff;
 }
 
 .About-Info {
@@ -125,6 +121,15 @@ button:focus {
 /*-- Portfolio Page --*/
 .Portfolio-Container {
     margin-top: 5%;
+}
+
+#Portfolio-Header {
+    font-family: 'Kalam', cursive;
+    font-weight: bolder;
+    font-size: 55px;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+    color: #ffffff;
 }
 
 .Portfolio-Card {
@@ -143,6 +148,7 @@ button:focus {
     text-transform: uppercase;
     padding-bottom: 10px;
     border-bottom: 3px solid #fff;
+    color: #ffffff;
 }
 
 .Portfolio-Image {
@@ -150,7 +156,8 @@ button:focus {
     width: 250px;
     height: 200px;
     margin-right: 5%;
-    margin-top: 5%;
+    margin-top: 3%;
+    margin-bottom: 2%;
     border: 3px solid #fff;
     border-radius: 15px;
     opacity: 0.6;
@@ -178,6 +185,29 @@ button:focus {
     font-family: 'Kalam', cursive;
 }
 
+#Hobbies-Div {
+    width: 100%;
+}
+
+.Github-Info {
+    font-family: 'Kalam', cursive;
+    font-size: 17px;
+    margin-top: 3%;
+}
+
+.Github-Info h4 {
+    font-weight: bold;
+}
+
+.Github-Links {
+    color: #fff;
+    padding-right: 15px;
+}
+
+.Github-Links:hover {
+    color: #fff;
+}
+
 /*-- Portfolio Page --*/
 /*--------------------*/
 
@@ -203,6 +233,7 @@ button:focus {
     text-transform: uppercase;
     padding-bottom: 10px;
     border-bottom: 3px solid #fff;
+    color: #ffffff;
 }
 
 .Contact-Label {
