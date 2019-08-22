@@ -145,9 +145,36 @@ button:focus {
     border-bottom: 3px solid #fff;
 }
 
-.Portfolio-Info {
-    font-size: 19px;
-    font-family: 'Kalam', cursive;
+.Portfolio-Image {
+    position: relative;
+    float: left;
+    width: 274px;
+    margin: 20px 0 25px;
+    overflow: auto;
+}
+
+.Portfolio-Image:nth-child(even) {
+    margin-right: 40px;
+}
+
+.Portfolio-Image img {
+    width: 100%;
+    border: 0 none;
+    opacity: 0.8;
+}
+
+.Portfolio-Image h3 {
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 0;
+    font-weight: 300;
+    line-height: 30px;
+    color: #ffffff;
+    text-align: center;
+    background: #4aaaa5;
+    border-bottom: 0;
 }
 
 /*-- Portfolio Page --*/
