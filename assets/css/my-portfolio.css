@@ -277,6 +277,11 @@ button:focus {
     color: #fff;
 }
 
+#Contact-Info a {
+    color: white;
+}
+
+
 /*-- Contact Page --*/
 /*------------------*/
 
